@@ -1,6 +1,11 @@
 @charset "UTF-8";
-body {
-  font-family: "Outfit", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
 .body-wrap {
@@ -318,7 +323,7 @@ hr {
 .drop-down .drop-down-wrap .drop-down-menu .dropdown-item .item-content .item-sub {
   font-size: 12px;
   line-height: 12px;
-  color: #797979;
+  color: #000000;
 }
 .drop-down .drop-down-wrap .dropdown-thumb {
   background-size: cover;
@@ -788,7 +793,7 @@ hr {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  color: #797979;
+  color: #000000;
 }
 .blog-sec .blog-cards-wrap .card .card-body .blog-btn {
   color: #6600CC;
@@ -869,7 +874,7 @@ hr {
 }
 .blog-feature-sec .blog-feature-wrap .blog-feature-content .blog-feature-desc {
   font-size: 17px;
-  color: #797979;
+  color: #000000;
   padding-bottom: 20px;
 }
 .blog-feature-sec .blog-feature-wrap .blog-feature-content .blog-comment a {
@@ -935,7 +940,7 @@ hr {
 }
 .blog-post-area .blog-post-area-wrap .blog-post-item .item-content .post-desc {
   font-size: 17px;
-  color: #797979;
+  color: #000000;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -972,7 +977,7 @@ hr {
 .blog-newsletter-area .newsletter-form input {
   height: 50px;
   border: none;
-  border-bottom: 2px solid #797979;
+  border-bottom: 2px solid #000000;
 }
 .blog-newsletter-area .newsletter-form .newsletter-btn {
   position: absolute;
@@ -1031,7 +1036,7 @@ hr {
   padding: 0px 50px;
 }
 .contact-sec .contact-wrap .contact-form label {
-  color: #797979;
+  color: #000000;
   font-size: 16px;
 }
 .contact-sec .contact-wrap .contact-form input {
@@ -1186,7 +1191,7 @@ hr {
 }
 .speakers-gallery-sec .speakers-gallery-items-wrap .speakers-gallery-item .item-content .sub {
   font-size: 14px;
-  color: #797979;
+  color: #000000;
 }
 .speakers-gallery-sec .speakers-gallery-items-wrap .speakers-gallery-item .social-icons {
   position: absolute;
@@ -1291,7 +1296,7 @@ hr {
 }
 .cta-sec .cta-content-wrap .desc {
   font-size: 20px;
-  color: #212121;
+  color: #000000;
 }
 .cta-sec .cta-content-wrap form {
   display: -webkit-box;
@@ -1358,7 +1363,7 @@ hr {
 }
 .review-sec .review-cards-wrap .review-card-items-wrap .review-card-item .card-desc {
   font-size: 18px;
-  color: #797979;
+  color: #000000;
 }
 .review-sec .review-cards-wrap .review-card-items-wrap .review-card-item .profile {
   display: -webkit-box;
@@ -1378,14 +1383,14 @@ hr {
 }
 .review-sec .review-cards-wrap .review-card-items-wrap .review-card-item .profile .content span {
   font-size: 14px;
-  color: #797979;
+  color: #000000;
 }
 .review-sec .review-cards-wrap .review-card-items-wrap .review-card-item .rating-star i {
   color: #F3B545;
 }
 .review-sec .review-cards-wrap .review-card-items-wrap .review-card-item span {
   font-size: 16px;
-  color: #797979;
+  color: #000000;
 }
 .review-sec .review-cards-wrap .carousel-nav {
   position: absolute;
@@ -1467,7 +1472,7 @@ hr {
 }
 .section-head .desc {
   font-size: 18px;
-  color: #797979;
+  color: #000000;
 }
 
 .pricing-cart-wrap {
@@ -1624,7 +1629,7 @@ hr {
 }
 .video-sec .video-content-wrap .desc {
   font-size: 18px;
-  color: #797979;
+  color: #000000;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -1752,7 +1757,7 @@ hr {
 }
 .schedule-sec .schedule-content-wrap .schedule-tab-content .schedule-item .card-title-area .title-desc {
   font-size: 14px;
-  color: #797979;
+  color: #000000;
 }
 .schedule-sec .schedule-content-wrap .schedule-tab-content .schedule-item .card-title-area .title-desc a {
   color: #6600CC;
@@ -1861,7 +1866,7 @@ hr {
 }
 .faq-sec .title-area .desc {
   font-size: 18px;
-  color: #797979;
+  color: #000000;
 }
 .faq-sec .question-area .accordion .accordion-item {
   border-left: none;
@@ -2070,7 +2075,7 @@ hr {
 .dark-version .gallery-sec .card,
 .dark-version .contact-sec .card {
   background-color: #292f3a;
-  border: 1px solid #797979;
+  border: 1px solid #000000;
 }
 .dark-version .about-sec .card:hover,
 .dark-version .schedule-sec .card:hover,
