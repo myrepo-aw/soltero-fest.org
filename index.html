@@ -88,7 +88,7 @@
                <a class="navbar-brand" href="index.html">
                   <img src="assets/images/logo/logo.png" width="55" height="55" alt="Soltero Fest Logo">
                </a>
-              
+      
                <div class="collapse navbar-collapse d-none d-lg-block">
                   <ul class="navbar-nav m-auto">
                      <li class="nav-item me-4">
@@ -102,23 +102,25 @@
                      </li>
                   </ul>
                   <div class="mode-and-button d-flex align-items-center">
-                     <a href="https://soltero-fest-guanajuato-2025-primera-fecha-junio.boletia.com/" target="_blank" class="custom-btn2 d-flex align-items-center">Comprar boletos</a>
+                     <button class="custom-btn2 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#boletosModal">
+                        Comprar boletos
+                     </button>
                   </div>
                </div>
-
+      
                <!-- mobile menu -->
                <div class="d-sm-none">
-                  <a href="https://soltero-fest-guanajuato-2025-primera-fecha-junio.boletia.com/" target="_blank" class="custom-btn2 d-flex align-items-center">Comprar boletos</a>
+                  <button class="custom-btn2 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#boletosModal">
+                     Comprar boletos
+                  </button>
                </div>
                <!-- end mobile menu -->
-
             </div>
          </nav>
-         
+      
          <!-- hero sec start -->
-         <section class="hero-sec"  style="background-image: url(assets/images/banner/group.png);">
+         <section class="hero-sec" style="background-image: url(assets/images/banner/group.png);">
             <div class="hero-slider-wrap">
-               
                <div class="hero-slider-item overflow-hidden">
                   <div class="container">
                      <div class="row align-items-center">
@@ -132,7 +134,9 @@
                                     El Soltero Fest en Guanajuato es el evento perfecto para conectar y encontrar el amor en una experiencia única y emocionante. Primera fecha confirmada para el 14 de Junio de 2025. 
                                  </p>
                                  <div class="button-group">
-                                    <a href="https://soltero-fest-guanajuato-2025-primera-fecha-junio.boletia.com/" target="_blank" class="custom-btn2 d-flex align-items-center">Comprar boletos</a>
+                                    <button class="custom-btn2 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#boletosModal">
+                                       Comprar boletos
+                                    </button>
                                  </div>
                                  <img src="assets/images/dots/dots.png" alt="Shadow Image" class="dots-1 opacity-50 img-moving-anim2">
                               </div>
@@ -152,14 +156,38 @@
                      </div>
                      <br class="d-sm-none pt-5">
                      <div class="highlight-text img-moving-anim4 pt-sm-0 pt-5">
-                        <strong class="big-title"><span class="text">Junio 2025</span></strong>
+                        <strong class="big-title"><span class="text">Junio y Julio 2025</span></strong>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <!-- hero sec start -->
+         <!-- hero sec end -->
+      
+         <!-- Modal de fechas -->
+         <div class="modal fade" id="boletosModal" tabindex="-1" aria-labelledby="boletosModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content text-center">
+                  <div class="modal-header">
+                     <h5 class="modal-title w-100" id="boletosModalLabel">Selecciona una fecha</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                     <a href="https://soltero-fest-guanajuato-2025-primera-fecha-junio.boletia.com/" target="_blank" class="btn btn-primary w-100 mb-3">
+                        14 de Junio 2025
+                     </a>
+                     <a href="https://soltero-fest-guanajuato-2025-segunda-fecha-julio.boletia.com/" target="_blank" class="btn btn-primary w-100">
+                        12 de Julio 2025
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
       </header>
+      
+      <!-- Asegúrate de tener esto antes de cerrar </body> -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      
       <!-- header area end -->
       
       
@@ -323,7 +351,7 @@
                            </h2>
                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                 Para éste 2025, las fechas oficiales del Soltero Fest son los días Sábado 14 de Junio y 27 de Julio, sin embargo, ésta segunda fecha aún se encuentra pendiente de confirmación.
+                                 Para éste 2025, las fechas oficiales del Soltero Fest son los días Sábado 14 de Junio y 05 de Julio.
                                  <br><br>
                                  Cualquier fecha diferente anunciada por organizadores externos será considerada como <strong>no oficial,</strong> y ajena a los organizadores del Soltero Fest.
                               </div>
@@ -380,7 +408,7 @@
                      <button class="nav-link active" id="pills-day-1-tab" data-bs-toggle="pill" data-bs-target="#pills-day-1" type="button" role="tab" aria-controls="pills-day-1" aria-selected="true">14 de Junio</button>
                   </li>
                   <li class="nav-item schedule-nav-item" role="presentation">
-                     <button class="nav-link" id="pills-day-2-tab" data-bs-toggle="pill" data-bs-target="#pills-day-2" type="button" role="tab" aria-controls="pills-day-2" aria-selected="false">27 de Julio</button>
+                     <button class="nav-link" id="pills-day-2-tab" data-bs-toggle="pill" data-bs-target="#pills-day-2" type="button" role="tab" aria-controls="pills-day-2" aria-selected="false">05 de Julio</button>
                   </li>
                </ul>
                <div class="tab-content schedule-tab-content" id="pills-tabContent">
@@ -420,7 +448,7 @@
                               </div>
                               <div class="card-description">
                                  <span class="name d-block">Soltero Fest</span>
-                                 <span class="date d-block">27 de Julio, 2025</span>
+                                 <span class="date d-block">05 de Julio, 2025</span>
                                  <span class="time d-block">19:00 - 20:45</span>
                               </div>
                            </div>
@@ -429,7 +457,10 @@
                            <div class="d-flex align-items-center justify-content-between">
                               <div class="card-title-area col-7">
                                  <h4 class="title">Segunda fecha</h4>
-                                 <p class="title-desc">Actualmente nuestra segunda fecha oficial del evento se encuentra pendiente de confirmación.</a></p>
+                                 <p class="title-desc">Adquiere tus accesos directamente con nuestro proveedor de boletaje oficial, Boletia</a></p>
+                              </div>
+                              <div class="card-button col-6">
+                                 <a href="https://soltero-fest-guanajuato-2025-segunda-fecha-julio.boletia.com/" target="_blank" class="custom-btn2 d-flex align-items-center">Reservar</a>
                               </div>
                            </div>
                         </div>
