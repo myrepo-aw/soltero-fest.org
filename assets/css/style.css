@@ -2716,3 +2716,99 @@ hr {
   max-height: 350px;
   overflow-y: auto;
 }
+
+
+/*  PERSO */
+.custom-btn2 {
+  display: inline-flex;
+  align-items: center;    
+  justify-content: center; 
+  text-align: center;
+}
+
+.modal-body {
+    position: relative;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+/* Contenedor con fondo blanco */
+.scroll-indicator {
+    position: sticky;
+    bottom: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 8px 16px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    pointer-events: none;
+    z-index: 10;
+
+    background: linear-gradient(
+    135deg,
+    #4a2e83c7 0%,
+    #6b3fa0bd 45%,
+    #8d44adc5 100%
+    );
+}
+
+    /* Texto */
+.scroll-indicator span {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: white;
+}
+
+    /* Flecha */
+.arrow-down {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-left: 2px solid rgba(255, 255, 255, 0.85);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+    transform: rotate(-45deg);
+    animation: bounce 1.5s infinite;
+}
+
+    /* Animación */
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0) rotate(-45deg);
+    }
+    50% {
+    transform: translateY(6px) rotate(-45deg);
+    }
+}
+
+
+.modal-body {
+max-height: 70vh;
+overflow-y: scroll;
+scrollbar-width: auto;         
+scrollbar-color: #ccc #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    .modal-body {
+    max-height: 53vh;
+    }
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.modal-body::-webkit-scrollbar {
+width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+background: #f9f9f9;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+background-color: #ccc;
+border-radius: 4px;
+}
