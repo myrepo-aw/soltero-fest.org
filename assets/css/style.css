@@ -2812,3 +2812,30 @@ background: #f9f9f9;
 background-color: #ccc;
 border-radius: 4px;
 }
+
+/* Carrusel */
+.about-sec .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#pastEditionsCarousel {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#pastEditionsCarousel .carousel-item {
+  height: 600px;
+}
+
+#pastEditionsCarousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  #pastEditionsCarousel .carousel-item {
+    height: 350px;
+  }
+}
